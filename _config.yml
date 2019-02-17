@@ -63,6 +63,10 @@ post_copyright:
 ## modified part: google adsense
 google_adsense: ca-pub-8173953423049587
 
+## modified part: beian
+miit_beian: 苏ICP备17036487号-1
+wangan_beian: 苏公网安备32010100000000号
+
 menu:
   - page: home
     directory: .

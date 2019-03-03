@@ -1,4 +1,11 @@
 head
+    if theme.google_adsense
+      script(src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async)
+      script.
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "#{theme.google_adsense}",
+          enable_page_level_ads: true
+        });
     meta(http-equiv='content-type', content='text/html; charset=utf-8')
     meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
     meta(content='yes', name='apple-mobile-web-app-capable')
@@ -36,11 +43,5 @@ head
           s.parentNode.insertBefore(hm, s);
           })();
 
-    if theme.google_adsense
-      script(src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async)
-      script.
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "#{theme.google_adsense}",
-          enable_page_level_ads: true
-        });
+
         

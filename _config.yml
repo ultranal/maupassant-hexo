@@ -89,8 +89,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_comments
   - links
   - ad
-  
+
 links:
+  - title: ForestCTF
+    url: https://ctf.lpnal.top/
 
 timeline:
 

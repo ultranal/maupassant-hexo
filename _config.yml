@@ -64,8 +64,8 @@ post_copyright:
 google_adsense: 
 
 ## modified part: beian
-miit_beian: 苏ICP备17036487号-1
-wangan_beian: 苏公网安备 32011302320688号
+## miit_beian: 苏ICP备17036487号-1
+## wangan_beian: 苏公网安备 32011302320688号
 
 ## modified part: underpost ad
 underpost_ad: true
@@ -94,8 +94,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - ad
 
 links:
-  - title: ForestCTF
-    url: https://ctf.lpnal.top/
 
 timeline:
 
